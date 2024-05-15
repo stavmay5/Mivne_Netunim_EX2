@@ -1,6 +1,6 @@
 ﻿/*
 		Stav Macri 324084722 - סתיו מכרי
-		Nadav Swartz 208296400 - נדב שוורץ
+		Nadav Swartz 208296400 - נדב שורץ
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -67,19 +67,19 @@ int main()
 {
 	int i;
 	
-	int A[] = { 101, 87, 122, 208, 74, 107, 152, 130, 200, 53, 89, 133, 47, 13, 98, 100, 345, 233, 45, 67, 89, 433, 98, 65, 32, 11, 2555, 67, 34, 222 };
 	const int len = 30;
+	int A[len];
 	int B[len + 1];
 
 	Stack S;
-	/*
+	
 	cout << "Enter " << len << " Numbers " << endl;
 	for (i = 0; i < len; i++)
 	{
 		cout << "Enter Number " << i + 1 << endl;
 		cin >> A[i];
 	}
-	*/
+	
 	S.push(-1);
 	S.push(0);
 	B[0] = 0;
